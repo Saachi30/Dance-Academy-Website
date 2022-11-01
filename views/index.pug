@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    title Saachi Dance Academy
+    style
+        include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                p#logotext SDA
+                img#logoimg(src = "/static/logo.png")
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About Us]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Our Classes]
+            li #[a(href = "/") Contact Us]
+    section#intro 
+        div Welcome to Saachi Dance Academy
+        div.small Eat. Sleep. Dance. Repeat. 
+    section#mission 
+        h1 Our Mission
+        div#cardcontainer 
+            div.card 
+                h2 Making you fall in love with dance
+                div.cardcontent 
+                    img.cardimg#card1(src="/static/card1.png") 
+                    p.cardtext  When you love dance you live dance. You enjoy every step and feel happy from within.  
+            div.card 
+                h2 Expert Guidance 
+                div.cardcontent 
+                    img.cardimg(src="/static/card2.jpg") 
+                    p.cardtext  With great teachers you can develop great skills. Our goal is to bring out the best in you.   
+            div.card 
+                h2 Best experience for all
+                div.cardcontent 
+                    img.cardimg(src="/static/card3.png") 
+                    p.cardtext  Feel the power of dancing in a positive environment and beautiful ambience at SDA.            
+    section#sponsors 
+        h1 Our Sponsors
+        div#sponsorimages  
+            img.sponsorimg(src="/static/apple-logo-png-12899.png")
+            img.sponsorimg(src="/static/microsoft-logo-png-2396.png")
+            img.sponsorimg(src="/static/hp.png")
+            img.sponsorimg(src="/static/skype-png-19702.png")
+    footer#footer 
+        p Copyrights © 2022 www.sda.com | All rights reserved.                 
+    script
+      include ../static/index.js

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.myinput{
+    width: 100%;
+    outline: none;
+    margin: 6px 0px;
+    padding: 6px 3px;
+    border: 2px solid gray;
+    font-size: 16px;
+    border-radius: 7px;
+}
+.containercontact{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    padding: 9px 13px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(73, 72, 72);
+}
