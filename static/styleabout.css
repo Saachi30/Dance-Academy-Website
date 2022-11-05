@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL QingKe HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Yeon Sung');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#about{
+    height: 590px;
+    text-align: center;
+}
+#abouthead{
+    margin: 10px 0px;
+    font-size: 40px;
+    font-family: 'Yeon Sung';
+    color: white;
+    background-color: black;
+}
+#aboutcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#abouttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 15px 25px;
+    margin-left: 70px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.aboutimg{
+    height: 450px;
+    width: 450px;
+    margin: 10px 15px;
+    margin-right: 50px;
+}
+#abouttext h3{
+    margin: 0px 3px;
+    margin-top: 50px;
+    font-family: 'ZCOOL QingKe HuangYou';
+}

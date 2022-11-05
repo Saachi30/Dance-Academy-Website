@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleabout.css
+block content 
+    section#about
+        section#abouthead  
+            h1 About Us 
+        section#aboutcontainer   
+            div#abouttext 
+                p Saachi Dance Academy (SDA) was founded in 2009 by Ms. Saachi Peswani and since then has predominantly been active in educating dance enthusiasts. The company completed a decade on the 7th of August 2019 and has taught over 20,000+ students in the country. Split Sole believes the combination of technique work and stylized movement can bring out the quality of a professional dancer in one, and therefore introduced Jazz Funk to the city for the very first time in 2009. Dance styles like Contemporary and Hip Hop are also taught at our studios across the city. At the academy, awaits a super fun, passionate and dedicated team of artists and teachers to make your dance journey a memorable one!
+                h3 OUR VISION - To inspire growth and have a positive impact in dance education  across the country, to help students grow in dance and in life.
+                h3 OUR MISSION - To contribute to the community, to create opportunities for the next generation in dance. To empower individuals and help them achieve their goals
+            div#aboutimg 
+                img.aboutimg(src="/static/aboutimg.jpg")

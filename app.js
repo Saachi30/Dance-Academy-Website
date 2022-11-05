@@ -29,6 +29,16 @@ app.get('/', (req, res)=>{
     res.status(200).render('home.pug', params);
 });
 
+app.get('/about', (req, res)=>{
+    const params = {};
+    res.status(200).render('about.pug', params);
+});
+
+app.get('/services', (req, res)=>{
+    const params = {};
+    res.status(200).render('services.pug', params);
+});
+
 app.get('/contact', (req, res)=>{
     const params = {};
     res.status(200).render('contact.pug', params);

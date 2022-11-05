@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL QingKe HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Yeon Sung');
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,7 @@
 h1{
     text-align: center;
     margin: 12px 0px;
+    font-family: 'Yeon Sung';
 }
 .myform{
     display: flex;
